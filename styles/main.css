@@ -24,7 +24,6 @@
  * Copyright 2012-2013 Mattia Larentis
  * http://www.apache.org/licenses/LICENSE-2.0
  */
-
 .bootstrap-switch {
   display: inline-block;
   direction: ltr;
@@ -94,7 +93,7 @@
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-brown,
 .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-brown {
   color: #fff;
-  background:#003399;
+  background: #378C3F;
 }
 
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-blue,
@@ -106,7 +105,7 @@
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-green,
 .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-green {
   color: #fff;
-  background: #003399;
+  background: #18ce0f;
 }
 
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-orange,
@@ -266,11 +265,11 @@
 }
 
 .bootstrap-switch.bootstrap-switch-on .bootstrap-switch-green ~ .bootstrap-switch-default {
-  background-color: #003399;
+  background-color: #18ce0f;
 }
 
 .bootstrap-switch.bootstrap-switch-on .bootstrap-switch-brown ~ .bootstrap-switch-default {
-  background-color: #003399;
+  background-color: #378C3F;
 }
 
 .bootstrap-switch.bootstrap-switch-on .bootstrap-switch-blue ~ .bootstrap-switch-default {
@@ -591,7 +590,7 @@
 }
 
 .slider.slider-primary .noUi-connect, .slider.slider-primary.noUi-connect {
-  background-color: #003399;
+  background-color: #378C3F;
 }
 
 .slider.slider-primary.noUi-target {
@@ -599,7 +598,7 @@
 }
 
 .slider.slider-primary .noUi-handle {
-  background-color: #003399;
+  background-color: #378C3F;
 }
 
 .slider.slider-info .noUi-connect, .slider.slider-info.noUi-connect {
@@ -615,7 +614,7 @@
 }
 
 .slider.slider-success .noUi-connect, .slider.slider-success.noUi-connect {
-  background-color: #003399;
+  background-color: #18ce0f;
 }
 
 .slider.slider-success.noUi-target {
@@ -623,7 +622,7 @@
 }
 
 .slider.slider-success .noUi-handle {
-  background-color: #003399;
+  background-color: #18ce0f;
 }
 
 .slider.slider-warning .noUi-connect, .slider.slider-warning.noUi-connect {
@@ -686,11 +685,11 @@
 }
 
 .datepicker.datepicker-primary:after {
-  border-bottom-color: #003399;
+  border-bottom-color: #378C3F;
 }
 
 .datepicker.datepicker-primary.datepicker-orient-top:after {
-  border-top-color: #003399;
+  border-top-color: #378C3F;
 }
 
 .datepicker.datepicker-primary .dow {
@@ -721,7 +720,7 @@
 .datepicker.datepicker-primary table tr td.active.disabled div,
 .datepicker.datepicker-primary table tr td.active.disabled:hover div {
   background-color: #FFFFFF;
-  color: #003399;
+  color: #378C3F;
 }
 
 .datepicker.datepicker-primary table tr td.day:hover div,
@@ -1111,7 +1110,7 @@
 .datepicker table tr td.active:hover div,
 .datepicker table tr td.active.disabled div,
 .datepicker table tr td.active.disabled:hover div {
-  background-color: #003399;
+  background-color: #378C3F;
   color: #FFFFFF;
   -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.2);
@@ -1148,7 +1147,7 @@
 .datepicker table tr td.active:hover.active,
 .datepicker table tr td.active.disabled.active,
 .datepicker table tr td.active.disabled:hover.active {
-  background-color: #003399;
+  background-color: #003399 \9;
 }
 
 .datepicker table tr td span {
